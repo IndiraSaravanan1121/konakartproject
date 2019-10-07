@@ -1,0 +1,331 @@
+2019-10-04 12:04:07 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 12:04:13 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 12:06:32 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 12:06:37 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 12:08:15 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 12:08:21 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 12:10:39 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 12:10:46 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 12:57:12 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 12:57:18 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 12:58:21 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 12:58:57 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 13:00:19 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 13:00:55 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 13:05:50 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 13:06:26 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 13:08:08 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 13:08:15 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 15:24:39 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 15:24:44 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 15:27:40 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 15:27:57 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 15:29:44 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 15:30:02 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 15:36:26 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 15:36:44 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 15:37:54 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 15:38:13 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 15:39:15 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 15:39:44 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 15:42:42 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 15:42:59 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 15:56:48 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 15:59:35 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 16:04:12 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 16:04:31 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 16:25:55 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 16:26:31 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 16:38:15 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 16:38:51 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 16:40:24 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 16:41:00 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 16:42:54 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 16:43:07 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 16:51:02 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 16:51:15 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 16:57:57 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 16:58:10 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 17:55:26 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 17:58:15 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 18:29:19 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 18:29:38 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 18:30:28 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 18:30:47 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 18:36:26 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 18:36:52 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 18:41:31 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 18:41:56 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 18:43:03 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 18:43:38 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 18:48:20 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 18:48:57 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 18:56:10 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 18:56:26 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 18:56:57 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 18:57:14 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 19:54:58 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 19:55:39 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 20:02:25 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 20:02:59 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 20:43:57 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 20:44:31 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 20:48:07 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 20:48:41 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 20:49:19 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 20:49:55 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 20:56:09 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 20:56:46 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 21:02:23 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 21:02:29 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 21:03:05 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 21:03:11 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 21:05:00 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 21:05:06 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 21:08:08 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-04 21:08:14 INFO  LogRecordFilter:15 - Browser closed
+2019-10-04 21:11:56 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-06 21:36:21 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-06 21:36:26 INFO  LogRecordFilter:15 - Browser closed
+2019-10-06 21:43:13 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-06 21:44:18 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-06 21:44:23 INFO  LogRecordFilter:15 - Browser closed
+2019-10-06 21:47:52 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-06 21:47:57 INFO  LogRecordFilter:15 - Browser closed
+2019-10-06 21:51:06 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-06 21:52:18 INFO  LogRecordFilter:15 - Browser closed
+2019-10-06 21:54:09 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-06 21:57:00 INFO  LogRecordFilter:15 - Browser closed
+2019-10-06 22:50:01 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-06 22:50:06 INFO  LogRecordFilter:15 - Browser closed
+2019-10-06 22:52:09 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-06 22:52:29 INFO  LogRecordFilter:15 - Browser closed
+2019-10-06 22:54:14 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-06 22:54:33 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 00:21:44 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 00:21:49 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 00:22:51 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 00:22:56 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 00:42:56 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 00:43:00 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 00:44:16 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 00:44:58 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 10:25:54 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 10:26:37 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 11:03:40 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 11:04:28 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 11:13:01 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 11:13:13 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 12:06:13 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 12:06:18 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 12:09:04 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 12:09:09 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 12:11:27 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 12:11:44 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 12:14:17 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 12:14:29 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 12:16:39 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 12:16:52 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 12:19:42 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 12:19:54 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 12:21:22 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 12:21:34 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 12:23:01 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 12:23:16 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 12:24:52 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 12:25:06 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 12:32:26 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 12:32:37 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 12:57:04 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 12:57:28 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 13:13:50 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 13:14:14 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 14:05:14 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 14:05:39 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 14:07:00 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 14:07:23 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 14:10:08 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 14:11:06 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 14:18:39 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 14:20:39 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 14:26:00 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 14:26:40 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 14:27:06 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 14:28:30 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 14:28:38 INFO  LogRecordFilter:15 - Bundle Saver
+2019-10-07 14:28:40 INFO  LogRecordFilter:15 - Microsoft Internet Keyboard PS/2
+2019-10-07 14:29:08 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 14:29:14 INFO  LogRecordFilter:15 - Logitech Illuminated Keyboard
+2019-10-07 14:30:21 INFO  LogRecordFilter:15 - Windows 8
+2019-10-07 14:30:22 INFO  LogRecordFilter:15 - Office Home and Student 2010
+2019-10-07 14:30:24 INFO  LogRecordFilter:15 - KonaKart Manual
+2019-10-07 14:30:26 INFO  LogRecordFilter:15 - Nikon D5100 SLR
+2019-10-07 14:30:27 INFO  LogRecordFilter:15 - Kindle Fire HD
+2019-10-07 14:30:29 INFO  LogRecordFilter:15 - Galaxy Tab 2
+2019-10-07 14:30:31 INFO  LogRecordFilter:15 - iPad
+2019-10-07 14:30:31 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 14:37:00 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 14:37:07 INFO  LogRecordFilter:15 - Bundle Saver
+2019-10-07 14:37:09 INFO  LogRecordFilter:15 - Microsoft Internet Keyboard PS/2
+2019-10-07 14:37:43 INFO  LogRecordFilter:15 - Logitech Illuminated Keyboard
+2019-10-07 14:38:50 INFO  LogRecordFilter:15 - Windows 8
+2019-10-07 14:38:51 INFO  LogRecordFilter:15 - Office Home and Student 2010
+2019-10-07 14:38:53 INFO  LogRecordFilter:15 - KonaKart Manual
+2019-10-07 14:38:55 INFO  LogRecordFilter:15 - Nikon D5100 SLR
+2019-10-07 14:38:56 INFO  LogRecordFilter:15 - Kindle Fire HD
+2019-10-07 14:38:58 INFO  LogRecordFilter:15 - Galaxy Tab 2
+2019-10-07 14:38:59 INFO  LogRecordFilter:15 - iPad
+2019-10-07 14:39:00 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 14:54:36 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 14:55:17 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 14:55:29 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 14:55:37 INFO  LogRecordFilter:15 - Bundle Saver
+2019-10-07 14:55:40 INFO  LogRecordFilter:15 - Microsoft Internet Keyboard PS/2
+2019-10-07 14:55:42 INFO  LogRecordFilter:15 - Logitech Illuminated Keyboard
+2019-10-07 14:55:43 INFO  LogRecordFilter:15 - Windows 8
+2019-10-07 14:55:46 INFO  LogRecordFilter:15 - Office Home and Student 2010
+2019-10-07 14:55:47 INFO  LogRecordFilter:15 - KonaKart Manual
+2019-10-07 14:55:49 INFO  LogRecordFilter:15 - Nikon D5100 SLR
+2019-10-07 14:55:51 INFO  LogRecordFilter:15 - Kindle Fire HD
+2019-10-07 14:55:53 INFO  LogRecordFilter:15 - Galaxy Tab 2
+2019-10-07 14:55:55 INFO  LogRecordFilter:15 - iPad
+2019-10-07 14:56:12 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 14:57:08 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 14:57:16 INFO  LogRecordFilter:15 - Bundle Saver
+2019-10-07 14:57:19 INFO  LogRecordFilter:15 - Microsoft Internet Keyboard PS/2
+2019-10-07 14:57:24 INFO  LogRecordFilter:15 - Logitech Illuminated Keyboard
+2019-10-07 14:57:29 INFO  LogRecordFilter:15 - Windows 8
+2019-10-07 14:57:33 INFO  LogRecordFilter:15 - Office Home and Student 2010
+2019-10-07 14:57:35 INFO  LogRecordFilter:15 - KonaKart Manual
+2019-10-07 14:57:37 INFO  LogRecordFilter:15 - Nikon D5100 SLR
+2019-10-07 14:57:39 INFO  LogRecordFilter:15 - Kindle Fire HD
+2019-10-07 14:57:41 INFO  LogRecordFilter:15 - Galaxy Tab 2
+2019-10-07 14:57:43 INFO  LogRecordFilter:15 - iPad
+2019-10-07 14:57:57 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 15:00:01 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 15:00:08 INFO  LogRecordFilter:15 - Bundle Saver
+2019-10-07 15:00:11 INFO  LogRecordFilter:15 - Microsoft Internet Keyboard PS/2
+2019-10-07 15:00:13 INFO  LogRecordFilter:15 - Logitech Illuminated Keyboard
+2019-10-07 15:00:14 INFO  LogRecordFilter:15 - Windows 8
+2019-10-07 15:00:16 INFO  LogRecordFilter:15 - Office Home and Student 2010
+2019-10-07 15:00:18 INFO  LogRecordFilter:15 - KonaKart Manual
+2019-10-07 15:00:20 INFO  LogRecordFilter:15 - Nikon D5100 SLR
+2019-10-07 15:00:22 INFO  LogRecordFilter:15 - Kindle Fire HD
+2019-10-07 15:00:24 INFO  LogRecordFilter:15 - Galaxy Tab 2
+2019-10-07 15:00:25 INFO  LogRecordFilter:15 - iPad
+2019-10-07 15:00:27 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 15:00:29 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 15:00:30 INFO  LogRecordFilter:15 - No products were found for your search of iPad . Click on any of the following suggestions to retry:
+ipad
+2019-10-07 15:00:32 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 15:00:33 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 15:00:35 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 15:00:36 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 15:00:38 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 15:00:40 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 15:00:40 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 15:10:39 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 15:10:49 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 15:15:56 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 15:17:02 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 15:49:26 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 15:49:39 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 15:52:08 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 15:52:43 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 16:55:50 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 16:56:00 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 16:57:50 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 16:58:00 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 17:00:50 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 17:00:59 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 17:08:39 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 17:08:49 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 17:11:05 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 17:12:12 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 17:18:31 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 17:18:42 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 17:21:00 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 17:21:11 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 17:23:39 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 17:24:14 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 17:51:35 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 17:51:42 INFO  LogRecordFilter:15 - Bundle Saver
+2019-10-07 17:51:44 INFO  LogRecordFilter:15 - Microsoft Internet Keyboard PS/2
+2019-10-07 17:51:46 INFO  LogRecordFilter:15 - Logitech Illuminated Keyboard
+2019-10-07 17:51:48 INFO  LogRecordFilter:15 - Windows 8
+2019-10-07 17:51:51 INFO  LogRecordFilter:15 - Office Home and Student 2010
+2019-10-07 17:51:53 INFO  LogRecordFilter:15 - KonaKart Manual
+2019-10-07 17:51:55 INFO  LogRecordFilter:15 - Nikon D5100 SLR
+2019-10-07 17:51:57 INFO  LogRecordFilter:15 - Kindle Fire HD
+2019-10-07 17:51:59 INFO  LogRecordFilter:15 - Galaxy Tab 2
+2019-10-07 17:52:01 INFO  LogRecordFilter:15 - iPad
+2019-10-07 17:52:03 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 17:52:05 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 17:52:07 INFO  LogRecordFilter:15 - No products were found for your search of iPad . Click on any of the following suggestions to retry:
+ipad
+2019-10-07 17:52:09 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 17:52:11 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 17:52:13 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 17:52:15 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 17:52:16 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 17:52:18 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 17:52:19 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 18:10:05 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 18:10:13 INFO  LogRecordFilter:15 - Bundle Saver
+2019-10-07 18:10:15 INFO  LogRecordFilter:15 - Microsoft Internet Keyboard PS/2
+2019-10-07 18:10:17 INFO  LogRecordFilter:15 - Logitech Illuminated Keyboard
+2019-10-07 18:10:19 INFO  LogRecordFilter:15 - Windows 8
+2019-10-07 18:10:21 INFO  LogRecordFilter:15 - Office Home and Student 2010
+2019-10-07 18:10:23 INFO  LogRecordFilter:15 - KonaKart Manual
+2019-10-07 18:10:25 INFO  LogRecordFilter:15 - Nikon D5100 SLR
+2019-10-07 18:10:27 INFO  LogRecordFilter:15 - Kindle Fire HD
+2019-10-07 18:10:28 INFO  LogRecordFilter:15 - Galaxy Tab 2
+2019-10-07 18:10:30 INFO  LogRecordFilter:15 - iPad
+2019-10-07 18:10:32 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 18:10:34 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 18:10:36 INFO  LogRecordFilter:15 - No products were found for your search of iPad . Click on any of the following suggestions to retry:
+ipad
+2019-10-07 18:10:37 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 18:10:39 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 18:10:41 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 18:10:43 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 18:10:45 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 18:10:47 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 18:10:48 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 18:12:51 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 18:13:01 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 18:30:11 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 18:30:20 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 18:39:49 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 18:39:59 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 18:47:11 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 18:47:46 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 19:05:31 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 19:15:45 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 19:15:54 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 19:21:20 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 19:21:28 INFO  LogRecordFilter:15 - Bundle Saver
+2019-10-07 19:21:30 INFO  LogRecordFilter:15 - Microsoft Internet Keyboard PS/2
+2019-10-07 19:21:32 INFO  LogRecordFilter:15 - Logitech Illuminated Keyboard
+2019-10-07 19:21:34 INFO  LogRecordFilter:15 - Windows 8
+2019-10-07 19:21:36 INFO  LogRecordFilter:15 - Office Home and Student 2010
+2019-10-07 19:21:38 INFO  LogRecordFilter:15 - KonaKart Manual
+2019-10-07 19:21:40 INFO  LogRecordFilter:15 - Nikon D5100 SLR
+2019-10-07 19:21:42 INFO  LogRecordFilter:15 - Kindle Fire HD
+2019-10-07 19:21:44 INFO  LogRecordFilter:15 - Galaxy Tab 2
+2019-10-07 19:21:46 INFO  LogRecordFilter:15 - iPad
+2019-10-07 19:21:47 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 19:21:49 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 19:21:51 INFO  LogRecordFilter:15 - No products were found for your search of iPad . Click on any of the following suggestions to retry:
+ipad
+2019-10-07 19:21:53 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 19:21:54 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 19:21:56 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 19:21:58 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 19:22:00 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 19:22:01 INFO  LogRecordFilter:15 - There are no available products.
+2019-10-07 19:22:02 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 19:55:46 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 19:57:13 INFO  LogRecordFilter:15 - Browser Opened
+2019-10-07 19:57:19 INFO  LogRecordFilter:15 - Browser closed
+2019-10-07 19:57:44 INFO  LogRecordFilter:15 - Browser closed

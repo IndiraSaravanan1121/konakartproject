@@ -1,11 +1,17 @@
 package com.Konakart.Report;
 
 import org.apache.log4j.Logger;
+
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.log4j.lf5.LogRecordFilter;
 
 import com.Konakart.Constants.Constants;
 
+/**
+ * Log Report.
+ * @author indira.saravanan
+ *
+ */
 public class LogReport {
 	Logger logger = null;
 

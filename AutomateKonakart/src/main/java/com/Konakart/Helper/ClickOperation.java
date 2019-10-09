@@ -48,28 +48,28 @@ public class ClickOperation extends BrowserSetup {
 	public static void pressReturn(String locatorType, String element) {
 		try {
 			switch (locatorType) {
-			case "ClassName":
+			case "className":
 				driver.findElement(By.className(element)).sendKeys(Keys.RETURN);
 				break;
-			case "CssSelector":
+			case "cssSelector":
 				driver.findElement(By.cssSelector(element)).sendKeys(Keys.RETURN);
 				break;
-			case "Id":
+			case "id":
 				driver.findElement(By.id(element)).sendKeys(Keys.RETURN);
 				break;
-			case "LinkText":
+			case "linkText":
 				driver.findElement(By.linkText(element)).sendKeys(Keys.RETURN);
 				break;
-			case "Name":
+			case "name":
 				driver.findElement(By.name(element)).sendKeys(Keys.RETURN);
 				break;
-			case "PartialLinkText":
+			case "partialLinkText":
 				driver.findElement(By.partialLinkText(element)).sendKeys(Keys.RETURN);
 				break;
-			case "TagName":
+			case "tagName":
 				driver.findElement(By.tagName(element)).sendKeys(Keys.RETURN);
 				break;
-			case "XPath":
+			case "xpath":
 				driver.findElement(By.xpath(element)).sendKeys(Keys.RETURN);
 				break;
 			default:
@@ -118,35 +118,35 @@ public class ClickOperation extends BrowserSetup {
 	public static void click(String locatorType, String element) {
 
 		switch (locatorType) {
-		case "ClassName":
+		case "className":
 			wait.until(ExpectedConditions.elementToBeClickable(By.className(element)));
 			driver.findElement(By.className(element)).click();
 			break;
-		case "CssSelector":
+		case "cssSelector":
 			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(element)));
 			driver.findElement(By.cssSelector(element)).click();
 			break;
-		case "Id":
+		case "id":
 			wait.until(ExpectedConditions.elementToBeClickable(By.id(element)));
 			driver.findElement(By.id(element)).click();
 			break;
-		case "LinkText":
+		case "linkText":
 			wait.until(ExpectedConditions.elementToBeClickable(By.linkText(element)));
 			driver.findElement(By.linkText(element)).click();
 			break;
-		case "Name":
+		case "name":
 			wait.until(ExpectedConditions.elementToBeClickable(By.name(element)));
 			driver.findElement(By.name(element)).click();
 			break;
-		case "PartialLinkText":
+		case "partialLinkText":
 			wait.until(ExpectedConditions.elementToBeClickable(By.partialLinkText(element)));
 			driver.findElement(By.partialLinkText(element)).click();
 			break;
-		case "TagName":
+		case "tagName":
 			wait.until(ExpectedConditions.elementToBeClickable(By.tagName(element)));
 			driver.findElement(By.tagName(element)).click();
 			break;
-		case "XPath":
+		case "xpath":
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath(element)));
 			driver.findElement(By.xpath(element)).click();
 			break;

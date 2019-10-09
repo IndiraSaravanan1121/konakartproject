@@ -15,6 +15,13 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
+/**
+ * Extent Report to generate report for pass,fail and skip test case.
+ * To generate screenshot for pass,fail and skip test case.
+ * 
+ * @author indira.saravanan
+ *
+ */
 public class ExtentReport {
 	public static WebDriver driver;
 	ExtentHtmlReporter htmlReporter;

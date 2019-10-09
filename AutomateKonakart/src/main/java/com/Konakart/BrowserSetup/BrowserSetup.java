@@ -34,7 +34,7 @@ public class BrowserSetup extends ExtentReport {
 			driver = new FirefoxDriver(); // create new instance for firefox driver
 			break;
 
-		case "IEDriver":
+		case "ie":
 			System.setProperty("webdriver.ie.driver", Constants.iedriver_path);
 			driver = new InternetExplorerDriver(); // create new instance for ie driver
 			break;

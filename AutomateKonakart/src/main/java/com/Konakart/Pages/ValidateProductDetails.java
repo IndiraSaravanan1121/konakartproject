@@ -11,15 +11,21 @@ import com.Konakart.Helper.Assertion;
 import com.Konakart.Properties.ReadProperties;
 import com.Konakart.Utilities.ExcelUtils;
 
+/**
+ * validate product description ,specification and customer review.
+ * 
+ * @author indira.saravanan
+ *
+ */
 public class ValidateProductDetails extends BrowserSetup {
 
 	@DataProvider
 	public Object[][] productDetails() {
-		Object data[][] = ExcelUtils.ReadWriteExcel("Sheet2");
+		Object data[][] = ExcelUtils.ReadWriteExcel("pro1descriptionandspecification");
 		return data;
 	}
 
-	@Test(dataProvider = "productDetails")
+	@Test(dataProvider = "pro1descriptionandspecifications")
 	public static void validateProductDetails(String Description, String Specification) throws Exception {
 		driver.findElement(By.xpath(ReadProperties.properties("loc_heroimg_img", Constants.pathProperties_file)))
 				.click();
@@ -40,11 +46,11 @@ public class ValidateProductDetails extends BrowserSetup {
 
 	@DataProvider
 	public Object[][] productDetail() {
-		Object data[][] = ExcelUtils.ReadWriteExcel("Sheet3");
+		Object data[][] = ExcelUtils.ReadWriteExcel("pro2descriptionandspecification");
 		return data;
 	}
 
-	@Test(dataProvider = "productDetail")
+	@Test(dataProvider = "pro2descriptionandspecification")
 	public static void validateProductDetail(String Description, String Specification) throws Exception {
 		driver.findElement(By.xpath(ReadProperties.properties("loc_heroimg_img", Constants.pathProperties_file)))
 				.click();

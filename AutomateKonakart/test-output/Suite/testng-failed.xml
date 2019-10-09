@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.Konakart.Testscript.ProductDetails">
+      <class name="com.Konakart.Testscript.ProductOutcome">
         <methods>
           <include name="setup"/>
           <include name="endReport"/>
           <include name="tearDown"/>
           <include name="startReport"/>
-          <include name="validateproduct"/>
+          <include name="positiveProductOutcome" invocation-numbers="5 6"/>
         </methods>
-      </class> <!-- com.Konakart.Testscript.ProductDetails -->
+      </class> <!-- com.Konakart.Testscript.ProductOutcome -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

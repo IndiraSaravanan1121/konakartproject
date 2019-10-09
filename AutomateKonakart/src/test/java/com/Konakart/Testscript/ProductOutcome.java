@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import com.Konakart.BrowserSetup.BrowserSetup;
 import com.Konakart.Constants.Constants;
 import com.Konakart.Helper.ClickOperation;
+import com.Konakart.Helper.SelectValue;
 import com.Konakart.Pages.ValidateProductOutcome;
 import com.Konakart.Properties.ReadProperties;
 import com.Konakart.Utilities.ExcelUtils;
@@ -24,16 +25,14 @@ public class ProductOutcome extends BrowserSetup {
 	// It read value from excel sheet.
 	@DataProvider
 	public Object[][] possibleValues() throws Exception {
-		Object data[][] = ExcelUtils.ReadWriteExcel("Sheet1");
+		Object data[][] = ExcelUtils.ReadWriteExcel("positive search item");
 		return data;
 	}
 
 	@Test(dataProvider = "possibleValues", priority = 1)
-	public void positiveProductOutcome(String text,String value) throws Exception {
-		ClickOperation.click("XPath", ReadProperties.properties("loc_dropdownlist_btn", Constants.pathProperties_file));
-		Select select = new Select(driver.findElement(
-				By.xpath(ReadProperties.properties("loc_dropdownlist_btn", Constants.pathProperties_file))));
-		select.selectByVisibleText(text);
+	public void positiveProductOutcome(String categories,String value) throws Exception {
+		ClickOperation.click("id", ReadProperties.properties("loc_dropdownlist_btn", Constants.pathProperties_file));
+		SelectValue.selectValueByVisibleText(driver, ReadProperties.properties("loc_dropdownlist_btn", Constants.pathProperties_file), "id", categories);
 		WebElement element = driver
 				.findElement(By.xpath(ReadProperties.properties("loc_searchbox_txt", Constants.pathProperties_file)));
 		ValidateProductOutcome.validatePositiveCase(element, value);
@@ -42,16 +41,14 @@ public class ProductOutcome extends BrowserSetup {
 	
 	@DataProvider
 	public Object[][] negativeValues() throws Exception {
-		Object data[][] = ExcelUtils.ReadWriteExcel("Sheet4");
+		Object data[][] = ExcelUtils.ReadWriteExcel("negative search item");
 		return data;
 	}
 
 	@Test(dataProvider = "negativeValues", priority = 2)
-	public void negativeProductOutcome(String text,String value) throws Exception {
-		ClickOperation.click("XPath", ReadProperties.properties("loc_dropdownlist_btn", Constants.pathProperties_file));
-		Select select = new Select(driver.findElement(
-				By.xpath(ReadProperties.properties("loc_dropdownlist_btn", Constants.pathProperties_file))));
-		select.selectByVisibleText(text);
+	public void negativeProductOutcome(String categories,String value) throws Exception {
+		ClickOperation.click("id", ReadProperties.properties("loc_dropdownlist_btn", Constants.pathProperties_file));
+		SelectValue.selectValueByVisibleText(driver, ReadProperties.properties("loc_dropdownlist_btn", Constants.pathProperties_file), "id", categories);
 		WebElement element = driver
 				.findElement(By.xpath(ReadProperties.properties("loc_searchbox_txt", Constants.pathProperties_file)));
 		ValidateProductOutcome.validateNegativeCase(element, value);

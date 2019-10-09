@@ -3,16 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Konakart.Testscript.ProductOutcome">
+      <class name="com.Konakart.Pages.ValidateProductDetails">
         <methods>
+          <include name="validateProductDetail"/>
           <include name="setup"/>
-          <include name="negativeProductOutcome"/>
           <include name="endReport"/>
           <include name="tearDown"/>
           <include name="startReport"/>
-          <include name="positiveProductOutcome" invocation-numbers="0"/>
+          <include name="validateProductDetails"/>
         </methods>
-      </class> <!-- com.Konakart.Testscript.ProductOutcome -->
+      </class> <!-- com.Konakart.Pages.ValidateProductDetails -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

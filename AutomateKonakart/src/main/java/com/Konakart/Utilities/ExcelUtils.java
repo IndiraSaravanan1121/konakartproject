@@ -1,6 +1,7 @@
 package com.Konakart.Utilities;
 
 import java.io.FileInputStream;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
@@ -11,6 +12,12 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 import com.Konakart.Constants.Constants;
+
+/**
+ * Read test data from excel file.
+ * @author indira.saravanan
+ *
+ */
 
 public class ExcelUtils {
 	static FileInputStream fileReader;
@@ -45,5 +52,4 @@ public class ExcelUtils {
 		}
 		return data;
 	}
-
 }

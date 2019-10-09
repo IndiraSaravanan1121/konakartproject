@@ -1,5 +1,6 @@
 package com.Konakart.Constants;
 
+
 public class Constants {
 	public final static String configProperties_path = "./src/test/resources/Locator/config.properties";
 	public final static String chrome_path = "./drivers/chromedriver.exe";

@@ -4,9 +4,6 @@ import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import com.Konakart.BrowserSetup.BrowserSetup;
-import com.Konakart.Constants.Constants;
-import com.Konakart.Pages.ValidateProductDetails;
-import com.Konakart.Properties.ReadProperties;
 
 /**
  * Validate product description content. Validate product specification content.
@@ -22,17 +19,8 @@ public class ProductDetails extends BrowserSetup {
 
 	@Test
 	public void validateproduct() throws Exception {
-
-		if (driver
-				.findElement(By.xpath(
-						ReadProperties.properties("loc_heroimagecoffeemaker_img", Constants.pathProperties_file)))
-				.isDisplayed()) {
-			ValidateProductDetails.validateProductDetails(description, specification);
-		}
-		else {
-			ValidateProductDetails.validateProductDetail(description, specification);
-
-		}
-
+		
+		String ele=driver.findElement(By.xpath("//picture[@id=\"slide-1\"]")).toString();
+		System.out.println(""+ele);		
 	}
 }

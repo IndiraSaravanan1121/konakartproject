@@ -13,9 +13,9 @@ public class ValidateProductOutcome extends BrowserSetup {
 
 	public static void validatePositiveCase(WebElement element, String value) throws Exception {
 		element.sendKeys(value);
-		ClickOperation.click("xpath", ReadProperties.properties("loc_search_btn", Constants.pathProperties_file));
+		ClickOperation.click("xpath", ReadProperties.properties("loc_search_btn", Constants.productoutcome_path));
 		String title = driver
-				.findElement(By.className(ReadProperties.properties("loc_itemtitle_txt", Constants.pathProperties_file)))
+				.findElement(By.className(ReadProperties.properties("loc_itemtitle_txt", Constants.productoutcome_path)))
 				.getText();
 		Assert.assertEquals(title, value);
 		log.logReport(title);
@@ -23,9 +23,9 @@ public class ValidateProductOutcome extends BrowserSetup {
 
 	public static void validateNegativeCase(WebElement element, String value) throws Exception {
 		element.sendKeys(value);
-		ClickOperation.click("xpath", ReadProperties.properties("loc_search_btn", Constants.pathProperties_file));
+		ClickOperation.click("xpath", ReadProperties.properties("loc_search_btn", Constants.productoutcome_path));
 		String itemmessage = driver
-				.findElement(By.className(ReadProperties.properties("loc_itemmessage_txt", Constants.pathProperties_file)))
+				.findElement(By.className(ReadProperties.properties("loc_itemmessage_txt", Constants.productoutcome_path)))
 				.getText();
 		log.logReport(itemmessage);
 	}

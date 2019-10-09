@@ -18,7 +18,7 @@ import com.Konakart.Utilities.ExcelUtils;
  *
  */
 public class ValidateProductDetails extends BrowserSetup {
-
+	
 	@DataProvider
 	public Object[][] productDetails() {
 		Object data[][] = ExcelUtils.ReadWriteExcel("pro1descriptionandspecification");
@@ -26,44 +26,41 @@ public class ValidateProductDetails extends BrowserSetup {
 	}
 
 	@Test(dataProvider = "pro1descriptionandspecifications")
-	public static void validateProductDetails(String Description, String Specification) throws Exception {
-		driver.findElement(By.xpath(ReadProperties.properties("loc_heroimg_img", Constants.pathProperties_file)))
-				.click();
+	public static void validateProduct1Detail(String Description, String Specification) throws Exception {
 		String des = driver
 				.findElement(By
-						.xpath(ReadProperties.properties("loc_productdescription_txt", Constants.pathProperties_file)))
+						.xpath(ReadProperties.properties("loc_productdescription_txt", Constants.productdetails_path)))
 				.getText();
+		System.out.println(""+des);
 		Assert.assertEquals(des, Description);
-		driver.findElement(By.xpath(ReadProperties.properties("loc_specification_txt", Constants.pathProperties_file)))
+		driver.findElement(By.xpath(ReadProperties.properties("loc_specification_txt", Constants.productdetails_path)))
 				.click();
 		String spec = driver
 				.findElement(By
-						.xpath(ReadProperties.properties("loc_productdescription_txt", Constants.pathProperties_file)))
+						.xpath(ReadProperties.properties("loc_productdescription_txt", Constants.productdetails_path)))
 				.getText();
 		Assertion.assertEqual(spec, Specification);
 
 	}
 
 	@DataProvider
-	public Object[][] productDetail() {
+	public Object[][] product2Detail() {
 		Object data[][] = ExcelUtils.ReadWriteExcel("pro2descriptionandspecification");
 		return data;
 	}
 
-	@Test(dataProvider = "pro2descriptionandspecification")
-	public static void validateProductDetail(String Description, String Specification) throws Exception {
-		driver.findElement(By.xpath(ReadProperties.properties("loc_heroimg_img", Constants.pathProperties_file)))
-				.click();
+	@Test(dataProvider = "product2Detail")
+	public static void validateProduct2Detail(String Description, String Specification) throws Exception {
 		String des = driver
 				.findElement(By
-						.xpath(ReadProperties.properties("loc_productdescription_txt", Constants.pathProperties_file)))
+						.xpath(ReadProperties.properties("loc_productdescription_txt", Constants.productdetails_path)))
 				.getText();
 		Assertion.assertEqual(des, Description);
-		driver.findElement(By.xpath(ReadProperties.properties("loc_specification_txt", Constants.pathProperties_file)))
+		driver.findElement(By.xpath(ReadProperties.properties("loc_specification_txt", Constants.productdetails_path)))
 				.click();
 		String spec = driver
 				.findElement(By
-						.xpath(ReadProperties.properties("loc_productdescription_txt", Constants.pathProperties_file)))
+						.xpath(ReadProperties.properties("loc_productdescription_txt", Constants.productdetails_path)))
 				.getText();
 		Assertion.assertEqual(spec, Specification);
 	}

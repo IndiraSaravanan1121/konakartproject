@@ -9,5 +9,7 @@ public class Constants {
 	public final static String log_path = "./log4j.properties";
 	public final static String pathProperties_file = "./src/test/resources/Locator/locator.properties";
 	public final static String TestData_path = "./src/test/resources/TestData/Konakarttestdata.xlsx";
+	public final static String productoutcome_path="./AutomateKonakart/src/test/resources/Locator/productoutcome.properties";
+	public final static String productdetails_path="./AutomateKonakart/src/test/resources/Locator/productdetails.properties";
 
 }

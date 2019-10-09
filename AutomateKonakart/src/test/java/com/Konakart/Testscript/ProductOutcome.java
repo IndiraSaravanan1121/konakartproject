@@ -31,10 +31,10 @@ public class ProductOutcome extends BrowserSetup {
 
 	@Test(dataProvider = "possibleValues", priority = 1)
 	public void positiveProductOutcome(String categories,String value) throws Exception {
-		ClickOperation.click("id", ReadProperties.properties("loc_dropdownlist_btn", Constants.pathProperties_file));
-		SelectValue.selectValueByVisibleText(driver, ReadProperties.properties("loc_dropdownlist_btn", Constants.pathProperties_file), "id", categories);
+		ClickOperation.click("id", ReadProperties.properties("loc_dropdownlist_btn", Constants.productoutcome_path));
+		SelectValue.selectValueByVisibleText(driver, ReadProperties.properties("loc_dropdownlist_btn", Constants.productoutcome_path), "id", categories);
 		WebElement element = driver
-				.findElement(By.xpath(ReadProperties.properties("loc_searchbox_txt", Constants.pathProperties_file)));
+				.findElement(By.xpath(ReadProperties.properties("loc_searchbox_txt", Constants.productoutcome_path)));
 		ValidateProductOutcome.validatePositiveCase(element, value);
 	}
 	
@@ -47,10 +47,10 @@ public class ProductOutcome extends BrowserSetup {
 
 	@Test(dataProvider = "negativeValues", priority = 2)
 	public void negativeProductOutcome(String categories,String value) throws Exception {
-		ClickOperation.click("id", ReadProperties.properties("loc_dropdownlist_btn", Constants.pathProperties_file));
-		SelectValue.selectValueByVisibleText(driver, ReadProperties.properties("loc_dropdownlist_btn", Constants.pathProperties_file), "id", categories);
+		ClickOperation.click("id", ReadProperties.properties("loc_dropdownlist_btn", Constants.productoutcome_path));
+		SelectValue.selectValueByVisibleText(driver, ReadProperties.properties("loc_dropdownlist_btn", Constants.productoutcome_path), "id", categories);
 		WebElement element = driver
-				.findElement(By.xpath(ReadProperties.properties("loc_searchbox_txt", Constants.pathProperties_file)));
+				.findElement(By.xpath(ReadProperties.properties("loc_searchbox_txt", Constants.productoutcome_path)));
 		ValidateProductOutcome.validateNegativeCase(element, value);
 	}
 

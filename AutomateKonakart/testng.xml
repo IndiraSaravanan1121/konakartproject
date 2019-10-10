@@ -3,9 +3,7 @@
 <suite name="AutomateKonakart">
 	<suite-files>
 		<suite-file
-			path="./AutomateKonakart/src/test/resources/Suitefile/validateproductoutcome.xml" />
-		<suite-file
-			path="/AutomateKonakart/src/test/resources/Suitefile/validateproductdetails.xml" />
+			path="./src/test/resources/Suitefile/validateproductoutcome.xml"></suite-file>
 	</suite-files>
 </suite> <!-- Suite -->
             

@@ -10,31 +10,36 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeTest;
 
 import com.Konakart.Constants.Constants;
+import com.Konakart.Helper.Browser;
 import com.Konakart.Properties.ReadProperties;
 import com.Konakart.Report.ExtentReport;
 import com.Konakart.Report.LogReport;
 
+
 public class BrowserSetup extends ExtentReport {
+	
 	protected static LogReport log = new LogReport();
 
 	@BeforeTest
 	public void setup() throws IOException {
 
 		test = extent.createTest("Browser Started");
+		
+		Browser browser=Browser.CHROME;
 
-		switch (ReadProperties.properties("browsername", Constants.configProperties_path)) {
+		switch (browser) {
 
-		case "chrome":
+		case CHROME:
 			System.setProperty("webdriver.chrome.driver", Constants.chrome_path);
 			driver = new ChromeDriver(); // create new instance for chrome driver
 			break;
 
-		case "firefox":
+		case FIREFOX:
 			System.setProperty("webdriver.gecko.driver", Constants.firefox_path);
 			driver = new FirefoxDriver(); // create new instance for firefox driver
 			break;
 
-		case "ie":
+		case INTERNETEXPLORER:
 			System.setProperty("webdriver.ie.driver", Constants.iedriver_path);
 			driver = new InternetExplorerDriver(); // create new instance for ie driver
 			break;
@@ -58,3 +63,4 @@ public class BrowserSetup extends ExtentReport {
 	}
 
 }
+

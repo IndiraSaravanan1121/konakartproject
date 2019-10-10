@@ -23,7 +23,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
  *
  */
 public class ExtentReport {
-	public static WebDriver driver;
+   public static WebDriver driver;
 	ExtentHtmlReporter htmlReporter;
 	protected ExtentReports extent;
 	protected ExtentTest test;

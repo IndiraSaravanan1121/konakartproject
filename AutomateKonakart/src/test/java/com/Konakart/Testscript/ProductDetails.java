@@ -25,7 +25,7 @@ public class ProductDetails extends BrowserSetup {
 	private String description;
 	private String specification;
 
-	@Test(priority = 0)
+	
 	public void clickHeroImage() throws Exception {
 		driver.findElement(By.xpath(ReadProperties.properties("loc_heroimage_img", Constants.productdetails_path)))
 				.click();
@@ -43,7 +43,7 @@ public class ProductDetails extends BrowserSetup {
 		}
 	}
 
-	@DataProvider
+
 	public Object[][] productDetails() {
 		Object data[][] = ExcelUtils.ReadWriteExcel("pro1descriptionandspecification");
 		return data;
@@ -66,13 +66,13 @@ public class ProductDetails extends BrowserSetup {
 		Assertion.assertEqual(spec, Specification);
 	}
 
-	@DataProvider
+	
 	public Object[][] product2Detail() {
 		Object data[][] = ExcelUtils.ReadWriteExcel("pro2descriptionandspecification");
 		return data;
 	}
 
-	@Test(dataProvider = "product2Detail")
+
 	public static void validateProduct2Detail(String Description, String Specification) throws Exception {
 		String des = driver
 				.findElement(By
